@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 90vh;
+    width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 190, 21);
+    justify-content: center;
+    padding: 2%;
+    color: aliceblue;
+}
+
+.container1 button{
+    background-color: beige;
+    border: hidden;
+    height: 12%;
+    width: 50%;
+    border-radius: 15px;
+    color: rgb(233, 190, 21);
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(15, 202, 223, 0.842);
+    justify-content: center;
+    padding: 2%;
+    color: aliceblue;
+}
+
+.container2 button{
+    background-color: beige;
+    border: hidden;
+    height: 12%;
+    width: 50%;
+    border-radius: 15px;
+    color: rgba(15, 202, 223, 0.842);
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(2, 130, 194, 0.815);
+    justify-content: center;
+    padding: 2%;
+    color: aliceblue;
+}
+
+.container3 button{
+    background-color: beige;
+    border: hidden;
+    height: 12%;
+    width: 50%;
+    border-radius: 15px;
+    color: rgba(2, 130, 194, 0.815);
+}
+p{
+    padding:6% 0;
+    margin: 3% 0;
+    font-size: 13px;
+    
+}
